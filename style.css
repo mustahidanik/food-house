@@ -2,15 +2,41 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-link ul li a{
+    background-image:linear-gradient(black, black);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 .orange-color{
     color: orange;
 }
 .flexible-contrainer{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,10 +55,9 @@ h1{
 }
 .about-me{
     background-image: url(images/shapes/7.png);
-    background-position: center;
 }
 .frame img{
-    width: 50%;
+    width: 45%;
     padding-top: 10%;
     padding-left: 20%;
 }
@@ -53,4 +78,24 @@ h1{
 .my-recipies-col img{
     width: 100%;
     border-radius: 10px;
+}
+.email{
+    text-align: center;
+}
+.sign{
+    padding-left: 45%;
+}
+.sign-button{
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
 }
